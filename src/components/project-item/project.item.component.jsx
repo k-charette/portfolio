@@ -1,5 +1,4 @@
 import React from 'react'
-import './project.item.styles.css'
 
 const ProjectItem = ({ title }) => {
     return(
