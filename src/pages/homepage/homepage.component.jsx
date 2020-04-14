@@ -6,7 +6,7 @@ import Projects from '../../components/projects/projects.component'
 const Homepage = () => {
     return (
         <>
-            <div className='flex'>
+            <div className='flex flex-wrap grid grid-rows-3'>
             <HeaderComponent />
                 <About />
                 <Projects />
