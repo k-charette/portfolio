@@ -4,6 +4,7 @@ import Homepage from './pages/homepage/homepage.component'
 import Header from './components/header/header.component'
 import About from './components/about/about.component'
 import Projects from './components/projects/projects.component'
+import Technology from './components/technology/technology.component'
 import { GlobalStyle } from './global-styles'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path="/" component={Homepage}/>
         <Route path="/header" component={Header}/>
         <Route path="/about" component={About}/>
+        <Route path='/technology' component={Technology}/>
         <Route path="/projects" component={Projects}/>
       </Switch>
     </>

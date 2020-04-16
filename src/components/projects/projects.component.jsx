@@ -7,7 +7,7 @@ const Projects = () => {
         <>
             <div id='projects-section' className='w-full px-6 py-12 bg-white'>
                 <div className='container max-w-4x1 mx-auto text-center pb-10'>
-                    <h3 className='text-x1 md:text-3x1 leading-tight text-center max-w-md mx-auto text-gray-900 mb-12'>CHECK OUT MY PROJECTS</h3>
+                    <h3 className='text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-8'>CHECK OUT MY PROJECTS</h3>
                 </div>
                 <div>
                     <ProjectDirectory />
