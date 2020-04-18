@@ -8,7 +8,7 @@ const Technology = () => {
     return (
         <div id='technology-section' className='max-w-7xl px-6 py-12 bg-gray-300'>
             <div className='container max-w-4xl mx-auto text-center pb-10'>
-                <h3 className='text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-3 font-medium'>Technology and Skills</h3>
+                <h3 className='text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-3 font-medium uppercase'>Technology and Skills</h3>
             </div>
             <ul className='container max-w-4xl mx-auto text-center flex flex-wrap items-start'>
                 <li className='w-full lg:w-1/3 p-4 md:w-1/3 sm:mx-16 lg:mx-0'>

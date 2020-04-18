@@ -3,10 +3,11 @@ import profile from '../../images/ken-profile.jpeg'
 
 const About = () => {
     return (
-        <div id='about-section' className='w-full px-6 py-12 bg-gray-300 text-gray-700 text-left'>
-            <div className='container max-w-4x1 mx-auto flex justify-center flex-wrap md:flex-no-wrap'>
-                <div className="sm:w-1/2 md:w-2-3 pb-10 md:px-8 md:pt-0">
-                    <img className='rounded-full h-auto w-32 float-right' alt='Pic' src={profile}/>
+        <section id='about-section'>
+        <div className='w-full px-6 py-12 bg-gray-300 text-gray-700 text-left'>
+            <div className='container max-w-4x1 mx-auto flex justify-center flex-wrap md:flex-no-wrap pt-5'>
+                <div className="sm:w-1/2 md:w-1-3 pb-10 md:px-8 md:pt-0 ">
+                    <img className='rounded-full h-auto w-32 mx-auto' alt='Pic' src={profile}/>
                 </div>
                 <div className='w-screen md:w-1-3'>
                     <h2 className='text-3x1 mb-4 text-gray-900 font-medium leading-tight'>
@@ -30,20 +31,24 @@ const About = () => {
                                     Salem, MA 01970
                                 </span>
                                 <br />
-                                
-                                <span>charettekenneth@gmail.com</span>
+                                <span>
+                                    <a href='mailto:charettekenneth@gmail.com'>
+                                    charettekenneth@gmail.com
+                                    </a>
+                                </span>
                             </p>
                             </div>
                             <div className='max-w-xl'>
                                 <p className='text-center mb-6'>
-                                    Download Resume
+                                    <a href='#' target="_blank">Resume</a>
                                 </p>
                             </div>
                         </div> 
                     </div>
                 </div>
             </div>
-        </div>    
+        </div> 
+        </section>   
     )
 }
 
