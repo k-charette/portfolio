@@ -9,18 +9,18 @@ const About = () => {
                     <img className='rounded-full h-auto w-32 float-right' alt='Pic' src={profile}/>
                 </div>
                 <div className='w-screen md:w-1-3'>
-                    <h2 className='text-3x1 mb-8 text-gray-900 leading-tight'>
+                    <h2 className='text-3x1 mb-4 text-gray-900 font-medium leading-tight'>
                         About Me 
                     </h2>
                     <div className='md:w-1-3'>
-                    <p className='font-sans leading-relaxed mb-5 max-w-xl'>
+                    <p className='font-sans leading-relaxed mb-10 max-w-xl'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     </div>
                     <div className='container mx-auto'>
                         <div className='max-w-4x1 md:flex justify-between items-center md:text-md md:justify-start'>
                             <div className='w-full md:w-1/2 md-text-left'>
-                                <h2 className='text-3x1 mb-8 text-gray-900 leading-tight'>Contact Details</h2> 
+                                <h2 className='text-3x1 mb-4 text-gray-900 leading-tight font-medium'>Contact Details</h2> 
                             <p className='font-sans leading-relaxed mb-5'>
                                 <span>Ken Charette</span>
                                 <br />
