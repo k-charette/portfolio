@@ -30,6 +30,7 @@ const About = () => {
                                     Salem, MA 01970
                                 </span>
                                 <br />
+                                
                                 <span>charettekenneth@gmail.com</span>
                             </p>
                             </div>

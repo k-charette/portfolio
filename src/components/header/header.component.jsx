@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import backgroundImage from '../../images/abstract.jpg'
 import { HashLink as Link } from 'react-router-hash-link'
+import backgroundImage from '../../images/abstract.jpg'
 import Navigation from '../navigation/navigation.component'
+import Social from '../social/social'
+import { IconContext } from 'react-icons'
+import { IoIosArrowDown } from 'react-icons/io'
 
 const HeaderComponent = () => {
     const [headerStyle, setHeaderStyle] = useState(false)
@@ -43,18 +46,14 @@ const HeaderComponent = () => {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
                     <div className='w-full md:w-full text-center md:text-center py-4 flex flex-wrap justify-center items-stretch md:justify-center md:items-start'>
-                        <a className='px-2 md:pl-0 md:mr-3 md:pr-3 text-white'>
-                            GitHub
-                        </a>
-                        <a className='px-2 md:pl-0 md:mr-3 md:pr-3 text-white'>
-                            Twitter
-                        </a>
-                        <a className='px-2 md:pl-0 md:mr-3 md:pr-3 text-white'>
-                            Instagram
-                        </a>
+                       <Social />
                     </div>
-                    <p className='absolute inset-x-0 bottom-0 text-white pb-8'>
-                        <Link className='px-2 md:pl-0 md:mr-3 md:pr-3'smooth to='/#about-section'>Scroll Button Here</Link>
+                    <p className='absolute inset-x-0 bottom-0 text-white pb-0 hover:text-blue-400'>
+                        <Link className='px-2 md:pl-0 md:mr-3 md:pr-3'smooth to='/#about-section'>
+                            <IconContext.Provider value={{ className: 'content-center h-20 w-20 w-full' }}>
+                                <IoIosArrowDown />
+                            </IconContext.Provider> 
+                        </Link>
                             
                     </p>
                 </div>
