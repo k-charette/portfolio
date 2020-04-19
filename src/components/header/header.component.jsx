@@ -13,7 +13,7 @@ const HeaderComponent = () => {
     const handleScroll = () => {
         const position = window.scrollY
         const changePosition = 620
-        const hiddenPosition = 25
+        const hiddenPosition = 20
         if (position >= changePosition) {
             setHeaderStyle(true)
         } else {

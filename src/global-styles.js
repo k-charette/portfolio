@@ -6,10 +6,11 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0; 
         width: 100%;
-        min-height: 100%;
+        max-height: 100%;
         max-width: 100%;
         overflow-x: hidden;
         color: black;
         background-color: white;
+        overscroll-behavior: none
     }
 `

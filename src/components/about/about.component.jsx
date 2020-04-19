@@ -4,7 +4,7 @@ import profile from '../../images/ken-profile.jpeg'
 const About = () => {
     return (
         <section id='about-section'>
-        <div className='w-full px-6 py-12 bg-gray-300 text-gray-700 text-left'>
+        <div className='w-full px-6 py-12 bg-gray-100 text-gray-700 text-left'>
             <div className='container max-w-4x1 mx-auto flex justify-center flex-wrap md:flex-no-wrap pt-5'>
                 <div className="sm:w-1/2 md:w-1-3 pb-10 md:px-8 md:pt-0 ">
                     <img className='rounded-full h-auto w-32 mx-auto' alt='Pic' src={profile}/>
