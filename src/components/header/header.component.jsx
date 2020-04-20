@@ -11,7 +11,7 @@ const HeaderComponent = () => {
     const [showHeader, setShowHeader] = useState(false)
     
     const handleScroll = () => {
-        const position = window.scrollY
+        const position = window.pageYOffset
         const changePosition = 620
         const hiddenPosition = 20
         if (position >= changePosition) {
@@ -23,8 +23,7 @@ const HeaderComponent = () => {
             setShowHeader(true)
         } else {
             setShowHeader(false)
-        }
-        
+        }      
     }
 
     let style = {
