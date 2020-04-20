@@ -9,10 +9,8 @@ const Navigation = () => {
     const handleScroll = () => {
         const currentPos = window.pageYOffset
         const aboutPos = 619
-        const projectPos = 1290
+        const projectPos = 1226
         const techPos = 1650
-
-        console.log(currentPos)
 
         if (currentPos >= aboutPos && currentPos < projectPos){
             setAboutText('#63b3ed')
