@@ -16,7 +16,7 @@ const Technology = () => {
                 </div>
                 <ul className='container max-w-4xl mx-auto text-center flex flex-wrap items-start'>
                     <li className='w-full lg:w-1/3 p-4 md:w-1/3 sm:mx-16 lg:mx-0'>
-                        <IconContext.Provider value={{ className: 'content-center h-24 w-24 w-full' }}>
+                        <IconContext.Provider value={{ className: 'content-center h-24 w-24 w-full ' }}>
                             <FaCss3Alt />
                         </IconContext.Provider>
                         <h2 className='text-xl leading-tight mb-2'>CSS</h2>
