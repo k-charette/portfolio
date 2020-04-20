@@ -15,7 +15,7 @@ const About = () => {
                     </h2>
                     <div className='md:w-1-3'>
                     <p className='font-sans leading-relaxed mb-10 max-w-xl'>
-                        Former ESL teacher turned Full Stack Web Developer. I was previously enrolled in Launch Academy's coding bootcamp. In my next role I am looking for a place where I can continue my growth as a developer while also helping a company succeed in their goals. 
+                        Former ESL teacher turned Full Stack Web Developer. I was previously enrolled in Launch Academy's coding bootcamp. In my next role I am looking for a place where I can continue my growth as a developer while also helping a company succeed in their goals.
                     </p>
                     </div>
                     <div className='container mx-auto'>
@@ -40,7 +40,7 @@ const About = () => {
                             </div>
                             <div className='border-2 border-gray-900'>
                                 <p className='text-center px-4 py-2 font-extrabold text-lg uppercase'>
-                                    <a href='Kenneth-Charette-Full-Stack-Developer-Resume.pdf' target="_blank">Resume</a>
+                                    <a href='https://pdfhost.io/v/P6T5WnsCh_KennethCharetteFullStackDeveloperResumepdf.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
                                 </p>
                             </div>
                         </div> 

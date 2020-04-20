@@ -46,7 +46,7 @@ const Navigation = () => {
                     <Link style={{color: aboutText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 hover:text-blue-400 focus:text-blue-400'smooth to='/#about-section'>About</Link>
                     <Link style={{color: projectText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 hover:text-blue-400 focus:text-blue-400' smooth to='/#projects-section'>Projects</Link>
                     <Link style={{color: techText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 hover:text-blue-400 focus:text-blue-400' smooth to='/#technology-section'>Technology</Link>
-                    <a className='px-2 md:pl-0 md:mr-3 md:pr-3 hover:text-blue-400 focus:text-blue-400' href='Kenneth-Charette-Full-Stack-Developer-Resume.pdf' target="_blank">Resume</a>
+                    <a className='px-2 md:pl-0 md:mr-3 md:pr-3 hover:text-blue-400 focus:text-blue-400' href='https://pdfhost.io/v/P6T5WnsCh_KennethCharetteFullStackDeveloperResumepdf.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
                 </div>
             </nav>
         </div>
