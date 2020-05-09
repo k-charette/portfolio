@@ -2,4 +2,4 @@
 
 A ReactJS built portfolio page.  
 
-Check it out [here](https://k-charette.github.io/ken-portfolio/)
+Check it out [here](https://kencharette.com/)
