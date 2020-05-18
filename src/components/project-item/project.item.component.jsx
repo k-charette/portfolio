@@ -7,7 +7,7 @@ const ProjectItem = () => {
              <div className='my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-4'>
                 <div className='content shadow-2xl'>
                     <div className='content-overlay'></div> 
-                     <img src='https://i.imgur.com/v7bn1Aw.png' alt='crown-shop' className='w-full h-auto content-image'/>
+                     <img src='https://i.imgur.com/YxviJPh.png' alt='melange' className='w-full h-auto content-image'/>
                      <div className='content-details fadeIn-top font-sans leading-relaxed text-white'>
                         <h3 className='mb-8 font-semibold text-lg'>Melange</h3>
                         <a href="https://melange-dune.herokuapp.com/" rel="noopener noreferrer" target="_blank">
