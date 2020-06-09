@@ -40,7 +40,7 @@ const About = () => {
                             </div>
                             <div className='border-2 border-gray-900'>
                                 <p className='text-center px-4 py-2 font-extrabold text-lg uppercase'>
-                                    <a href='https://pdfhost.io/v/P6T5WnsCh_KennethCharetteFullStackDeveloperResumepdf.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
+                                    <a href='https://pdfhost.io/v/6285MHjK0_KenCharetteFullStackDeveloperResumepdf.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
                                 </p>
                             </div>
                         </div> 
