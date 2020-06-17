@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5747869b2be09083b918ba1db43cd68c",
+    "revision": "b4711dfd3e52ed4128e71e4da1a540c2",
     "url": "/index.html"
   },
   {
-    "revision": "20122d40523ad9d92296",
+    "revision": "a89edc54b8220766e184",
     "url": "/static/css/main.25a810da.chunk.css"
   },
   {
-    "revision": "572203bbda9a410dd164",
-    "url": "/static/js/2.f544671a.chunk.js"
+    "revision": "e1658b1b46e3ef15f072",
+    "url": "/static/js/2.13fff221.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/static/js/2.f544671a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.13fff221.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20122d40523ad9d92296",
-    "url": "/static/js/main.4d1a8f4c.chunk.js"
+    "revision": "a89edc54b8220766e184",
+    "url": "/static/js/main.b1eb8e36.chunk.js"
   },
   {
     "revision": "92a8fa6d2a61009e0c1c",
     "url": "/static/js/runtime-main.e3441cc1.js"
+  },
+  {
+    "revision": "19487ab83116dd3b3f256a7779b730df",
+    "url": "/static/media/Ken-Charette-Full-Stack-Developer-Resume.19487ab8.pdf"
   },
   {
     "revision": "30b6614ed301706fbf3551e1e965d204",
