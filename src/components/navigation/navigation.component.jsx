@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
+import  resume  from '../../Ken-Charette-Full-Stack-Developer-Resume.pdf'
 
 const Navigation = () => {
     const [aboutText, setAboutText] = useState(null)
@@ -46,7 +47,7 @@ const Navigation = () => {
                     <Link style={{color: aboutText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 focus:text-blue-400'smooth to='/#about-section'>About</Link>
                     <Link style={{color: projectText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 focus:text-blue-400' smooth to='/#projects-section'>Projects</Link>
                     <Link style={{color: techText}} className='px-2 md:pl-0 md:mr-3 md:pr-3 focus:text-blue-400' smooth to='/#technology-section'>Technology</Link>
-                    <a className='px-2 md:pl-0 md:mr-3 md:pr-3 focus:text-blue-400' href='https://pdfhost.io/v/6285MHjK0_KenCharetteFullStackDeveloperResumepdf.pdf' rel="noopener noreferrer" target="_blank">Resume</a>
+                    <a href={resume} className='px-2 md:pl-0 md:mr-3 md:pr-3 focus:text-blue-400' target="_blank ">Resume</a>
                 </div>
             </nav>
         </div>
