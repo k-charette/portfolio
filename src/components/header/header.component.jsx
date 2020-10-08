@@ -48,9 +48,9 @@ const HeaderComponent = () => {
                     <Navigation/>
                 </header>
                 <div className='container max-w-fx1 mx-auto text-center mt-20'>
-                    <h1 className='text-4xl leading-tight md:text-5xl text-center text-gray-100 mb-3 font-bold'>I'm Ken Charette.</h1>
-                    <p className='text-md md:text-2xl text-center text-white max-w-md mx-auto mb-8 tracking-wide font-bold'>
-                        I'm a full-stack web developer currently based in Boston. 
+                    <h1 className='text-4xl leading-tight md:text-5xl text-center text-gray-100 mb-3 '>Hi! I'm Ken Charette.</h1>
+                    <p className='text-md md:text-2xl text-white text-base max-w-md mx-auto mb-8 tracking-wide '>
+                        A Full Stack Developer and gaming enthusiast living in the Boston area.
                     </p>
                     <div className='w-full md:w-full text-center md:text-center py-4 flex flex-wrap justify-center items-stretch md:justify-center md:items-start'>
                        <Social />
