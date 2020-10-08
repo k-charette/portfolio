@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa'
+import { FaGithub, FaCss3Alt, FaHtml5, FaReact, FaNodeJs } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io'
 import { DiRor } from 'react-icons/di'
 import { IconContext } from 'react-icons'
@@ -42,6 +42,12 @@ const Technology = () => {
                             <IoLogoJavascript />
                         </IconContext.Provider>
                         <h2 className='text-xl leading-tight mb-2'>JAVASCRIPT</h2>
+                    </li>
+                    <li className='w-full lg:w-1/3 p-4 md:w-1/3 sm:mx-16 lg:mx-0'>
+                        <IconContext.Provider value={{ className: 'content-center h-24 w-24 w-full' }}>
+                            <FaNodeJs />
+                        </IconContext.Provider>
+                        <h2 className='text-xl leading-tight mb-2'>NODE.JS</h2>
                     </li>
                     <li className='w-full lg:w-1/3 p-4 md:w-1/3 sm:mx-16 lg:mx-0'>
                         <IconContext.Provider value={{ className: 'content-center h-24 w-24 w-full' }}>

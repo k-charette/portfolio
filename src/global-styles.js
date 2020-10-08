@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         overflow-x: hidden;
         color: black;
         background-color: white;
-        overscroll-behavior: none
+        overscroll-behavior: none;
+        font-family: 'Roboto Slab';
     }
 `
