@@ -40,6 +40,6 @@ $ npm start
 
 ---
 ## Get In Touch
-> [kencharette.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
+> [kencharette.com](https://kencharette.com) &nbsp;&middot;&nbsp;
 > GitHub [@k-charette](https://github.com/k-charette) &nbsp;&middot;&nbsp;
 > Twitter [@ItsKenCharette](https://twitter.com/ItsKenCharette)
