@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../../images/ken-profile.jpeg'
-import  resume  from '../../Ken-Charette-Full-Stack-Developer-Resume.pdf'
+import resume from '../../Ken-Charette-Full-Stack-Developer-Resume.pdf'
 
 
 const About = () => {
