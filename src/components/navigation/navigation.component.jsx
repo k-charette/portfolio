@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
-import  resume  from '../../Ken-Charette-Full-Stack-Developer-Resume.pdf'
+import  resume  from '../../Ken-Charette-DevOps-Resume.pdf'
 
 const Navigation = () => {
     const [aboutText, setAboutText] = useState(null)
